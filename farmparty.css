@@ -1,0 +1,89 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8FCAEF;
+    background-image: url('images/cloud03.jpg');
+}
+
+.grass {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #34C000;
+    border: 1px solid black;
+    width: 100%;
+    height: 200px;
+}
+
+.banner {
+    position: fixed;
+    bottom: 500px;
+    left: 175px;
+   /* margin-top: -50px;
+    margin-left: -100px;*/
+    z-index: 1000;
+}
+
+p {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 150px;
+    color: red;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.sheep {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+}
+.sheep img {
+    width: 150px;
+}
+
+.cow {
+    position: absolute;
+    left: 200px;
+    bottom: 150px;
+}
+
+.cow img {
+    width: 200px;
+}
+
+.farmer {
+    position: absolute;
+    left: 450px;
+    bottom: 120px;
+}
+
+.farmer img{
+    width: 400px;
+}
+
+.tree {
+    position: absolute;
+    left: 800px;
+    bottom: 150px;
+}
+
+.tree img {
+    width: 450px;
+}
+
+.sun {
+    position: absolute;
+    left: -10px;
+    top: -10px;
+}
+
+.sun img{
+    width: 300px;
+}
